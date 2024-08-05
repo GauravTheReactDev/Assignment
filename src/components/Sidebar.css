@@ -1,0 +1,40 @@
+.sidebar {
+    height: 100vh;
+    width: 6vw;
+    position: fixed;
+    top: 60px; 
+    left: 0;
+    z-index: 100;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .sidebar .nav-item {
+    width: 100%;
+    text-align: center;
+   
+  }
+
+  .sidebar-icon {
+    font-size: 28px;
+  }
+  
+  @media (max-width: 768px) {
+
+    .sidebar {
+      width: 9vw;     
+    }
+    
+    .sidebar-icon {
+      font-size: 20px; 
+    }
+  
+    .sidebar {
+      padding: 10px 0;
+    }
+  
+    .icon-item {
+      margin-bottom: 20px;
+    }
+  }
+

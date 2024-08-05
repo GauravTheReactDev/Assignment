@@ -1,0 +1,35 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #0f0f17;
+  color: #fff;
+}
+
+.App {
+  font-family: 'Arial', sans-serif;
+}
+
+.container-fluid.content {
+  margin-top: 80px; 
+}
+
+.main-content {
+  overflow-y: auto;
+  height: 90vh ;
+  display: flex;
+  justify-content: center;
+
+}
+
+.input-custom::placeholder {
+  color: rgba(231, 226, 226, 0.998);
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+}

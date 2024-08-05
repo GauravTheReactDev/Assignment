@@ -1,0 +1,50 @@
+.list-card {
+    padding: 1rem;
+    background-color: #343a40; 
+    border-radius: 0.25rem;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+  }
+  
+  .list-item:last-child {
+    border-bottom: none; 
+  }
+  
+  .list-item-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem; 
+  }
+  
+  .list-item-text {
+    flex: 1; 
+    font-size: 1rem;
+    color: #f8f9fa; 
+  }
+  
+  .list-item-arrow {
+    font-size: 1.5rem;
+    color: #007bff; 
+  }
+  
+  @media (max-width: 576px) {
+    .list-item {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .list-item-image {
+      margin-bottom: 0;
+    }
+  }

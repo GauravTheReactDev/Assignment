@@ -1,0 +1,33 @@
+.card-feedback {
+  max-height: 540px; 
+  overflow: auto; 
+}
+
+.card-feedback-body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.list-group-item-custom {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+}
+
+.list-group-item-custom h6 {
+  margin-bottom: 0.5rem;
+}
+
+.list-group-item-custom p {
+  margin-bottom: 0;
+}
+
+.feedback-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.customer-img {
+  margin-right: 10px; 
+}
